@@ -1,0 +1,22 @@
+server:
+  port: 9090
+  servlet:    context-path: /lms
+spring:
+#    h2:#      console:#        enabled: true
+        
+    jackson:      serialization:        write-dates-as-timestamps: false    security:     user:      name: us
+      
+      password: ps
+      
+      
+
+#    datasource:
+#        driver-class-name: ocom.microsoft.sqlserver.jdbc.SQLServerDriver
+#        url: jdbc:sqlserver://localhost;databaseName=LMS
+#        username: sa
+#        password: Chinu1994@
+#        
+#    jpa:
+#        show-sql: true
+#        hibernate.ddl-auto: update
+             
