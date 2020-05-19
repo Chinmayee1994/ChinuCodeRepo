@@ -99,7 +99,8 @@ public class LibraryController {
    
     }
 	@GetMapping("/gitWork")
-	public String gdetdummyValutocheckgitPullis working()
+	public String gdetdummyValutocheckgitPulligworking()
 	{
 	  	return "Code From GitHub Remote Repository to Local Repository";
 	}
+}
